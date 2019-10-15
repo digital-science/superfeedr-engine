@@ -4,6 +4,7 @@ require "rack-superfeedr"
 require "uri"
 
 module SuperfeedrEngine
+  class ValidationError < StandardError; end
   class Engine < ::Rails::Engine
     isolate_namespace SuperfeedrEngine
     mattr_accessor :feed_class

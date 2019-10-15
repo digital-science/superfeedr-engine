@@ -13,4 +13,6 @@ gemspec
 
 # To use a debugger
 # gem 'debugger', group: [:development, :test]
-
+group :test do
+  gem 'sqlite3', '~> 1.3.13'
+end
