@@ -13,6 +13,9 @@ gemspec
 
 # To use a debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'rack-superfeedr', '0.4.7', source: 'http://gems:shiney-new-password-12@gems.dsci.it'
+
 group :test do
   gem 'sqlite3', '~> 1.3.13'
 end
