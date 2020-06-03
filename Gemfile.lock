@@ -3,7 +3,7 @@ PATH
   specs:
     superfeedr_engine (0.2.2)
       rack-superfeedr (~> 0.4.7)
-      rails (~> 5.2, > 4.2.0)
+      rails (~> 5.2)
 
 GEM
   remote: https://rubygems.org/
